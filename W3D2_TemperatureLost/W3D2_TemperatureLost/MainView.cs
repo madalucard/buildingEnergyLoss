@@ -13,7 +13,7 @@ namespace W3D2_TemperatureLost
     public partial class MainView : Form
     {
         private ViewModel _vm;
-        // konstuctor        
+        // constuctor        
         public MainView(ViewModel vm)
         {
             InitializeComponent();
@@ -117,6 +117,7 @@ namespace W3D2_TemperatureLost
         {
             GetData();
             txtBxTotal.Text= _vm.TotalHeatLoss().ToString();
+            groupBox5.Visible = true;
         }
     }
 }

@@ -908,7 +908,7 @@
             // 
             // btnConfirmAll
             // 
-            this.btnConfirmAll.Location = new System.Drawing.Point(756, 596);
+            this.btnConfirmAll.Location = new System.Drawing.Point(382, 586);
             this.btnConfirmAll.Name = "btnConfirmAll";
             this.btnConfirmAll.Size = new System.Drawing.Size(97, 30);
             this.btnConfirmAll.TabIndex = 6;
@@ -919,12 +919,13 @@
             // groupBox5
             // 
             this.groupBox5.Controls.Add(this.txtBxTotal);
-            this.groupBox5.Location = new System.Drawing.Point(204, 494);
+            this.groupBox5.Location = new System.Drawing.Point(279, 476);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(316, 86);
             this.groupBox5.TabIndex = 7;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Total Heat Lost";
+            this.groupBox5.Visible = false;
             // 
             // txtBxTotal
             // 
